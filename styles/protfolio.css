@@ -13,11 +13,17 @@
 
 /* nav style */
 
+.header{
+background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left, bottom right;
+}
+
 nav {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin: 50px 100px;
+  margin: 0 200px 0 200px;
 }
 .nav-title {
   font-size: 45px;
@@ -35,7 +41,7 @@ nav ul li {
 nav ul a {
   text-decoration: none;
 }
-.dark-2 {
+.welcome.dark-2 {
   color: #474747;
 }
 .btn-primary {
@@ -44,9 +50,67 @@ nav ul a {
   border-radius: 5px;
   border: none;
 
-background: rgb(253, 110, 10);
-color: rgb(255, 255, 255);
+  background: rgb(253, 110, 10);
+  color: rgb(255, 255, 255);
 
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* banner style */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 35px 0 200px;
+  
+}
+.banner-content{
+  max-width: 580px;
+  
+  
+}
+
+.welcome {
+  font-size: 45px;
+  font-weight: 600;
+}
+.name {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-description {
+  color: rgb(117, 117, 117);
+
+  font-size: 18px;
+  font-weight: 400;
+}
+.btn-primary1  {
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+.btn-primary2{
+width: 160px;
+height: 64px;
+color: rgb(253, 110, 10);
 font-size: 20px;
 font-weight: 700;
+text-align: center;
+margin-left: 10px;
+border-radius: 5px;
+border: none;
+
 }
+.image{
+width: 584px;
+height: 676px;
+}
+
